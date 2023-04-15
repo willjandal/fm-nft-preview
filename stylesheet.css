@@ -44,10 +44,42 @@
         padding: 20px;
     }
 
-    /* Image config */
+    /* Image/s config */
 
     .image {
         width: 300px;
         height: 300px;
         border-radius: 15px;
     }
+
+    .author {
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+      }
+
+    .author .img_container {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        padding: 1px;
+        border: 1px solid white;
+      }
+
+      .author .img_container img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+
+
+
+      /* Horizontal line */
+      
+      .line {
+        background-color: rgb(98, 96, 96);
+        height: 1px;
+        width: 100%;
+      }
